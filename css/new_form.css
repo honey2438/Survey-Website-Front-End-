@@ -1,0 +1,194 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+}
+
+#survey-form {
+    width: 100%;
+    margin: 50px 0px;
+    margin-top:120px;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+  
+  #main-form {
+    width: 50%;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+    border:1px solid rgb(182, 182, 182);
+    box-shadow:6px 8px 18px 3px #888888;
+  }
+  
+  .form-header {
+    background-color: #eaeced;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .form-header h1 {
+    margin-bottom:0px;
+    font-size: 30px;
+    text-align: center;
+    color:rgb(44, 44, 44);
+    padding: 20px 0;
+    border-bottom: 1px solid #cccccc;
+  }
+  
+  .form-body {
+    padding: 10px 40px;
+    background-color: #eaeced;
+  }
+  
+  .group {
+    margin: 50px 0px;
+  }
+  
+  #group-age {
+    margin-top: 25px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .total-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+   .label-title {
+    color: rgb(44, 44, 44);
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .form-body .form-input {
+    margin-top: 15px;
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(57, 57, 57);
+    text-align: left;
+    border: 1px solid #a4a4a4;
+    border-radius: 4px;
+    background: white;
+    outline: none;
+    box-shadow: 6px 8px 18px 3px #888888;
+  }
+  
+  input[type="radio"] {
+    margin: 8px 2px;
+  }
+  
+  input[type="text"] {
+    margin: 5px 2px;
+  }
+  
+  input[type="checkbox"] {
+    margin: 8px 2px;
+  }
+  
+  select {
+    margin-top: 15px;
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    color: rgb(57, 57, 57);
+    border: 1px solid #a4a4a4;
+    border-radius: 4px;
+    background: white;
+    outline: none;
+    box-shadow:6px 8px 18px 3px #888888;
+  }
+  
+  option {
+    font-size: 1.1rem;
+    padding: 3px 32px;
+    margin-left: 10px;
+    color: black;
+  }
+  
+  .form-footer {
+    clear: both;
+  }
+  
+  .report-form .form-footer {
+    background-color: #EFF0F1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 40px;
+    text-align: right;
+    border-top: 1px solid #cccccc;
+  }
+  
+  .form-footer span {
+    float: left;
+    margin-top: 10px;
+    color: #999;
+    font-style: italic;
+    font-weight: thin;
+  }
+  
+  .btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: #1fb3f6;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 6px auto;
+  }
+  
+  .btn:hover {
+    background-color: #0082be;
+    color: white;
+  }
+  @media (max-width:1110px){
+    #survey-form{
+           margin-top: 114px;
+           margin-bottom: 74px;
+    }
+    #main-form{
+        width:75%;
+    }
+    .form-header h1{
+        font-size: 1.4rem;
+    }
+    #group-age {
+        margin-top: 10px;
+    }
+    .form-body .form-input, select {
+        margin-top: 11px;
+        font-size: 14px;
+        height: 20px;
+    }
+    option{
+        font-size:14px;
+        padding:2px 5px;
+    }
+    .group{
+        margin:11px 0px;
+    }
+    .btn{
+        padding: 3px 5px;
+        font-size: 14px;
+    }
+  }
