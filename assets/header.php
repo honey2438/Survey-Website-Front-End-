@@ -9,5 +9,4 @@
                 <li class="item"><a href="" target="_blank"><i class="fa-solid fa-address-book"></i>&nbsp; Contact Us</a></li>
             </ul>
         </nav>
-        </div>
     </header>
