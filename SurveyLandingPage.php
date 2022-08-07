@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8">
     <title>Register Form Start</title>
-    <link rel="stylesheet" href="../css/page.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <script src="https://kit.fontawesome.com/283605f283.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <?php include "../assets/header.php"; ?>
+    <?php include "assets/header.php"; ?>
     <div class="survey-container">
         <div class="prizes">
             <div class="inner-prize-container">
@@ -33,7 +33,7 @@
 
 
     <!-- footer -->
-    <?php include "../assets/footer.php"; ?>
+    <?php include "assets/footer.php"; ?>
 </body>
 
 

@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/new_form.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="css/new_form.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <script src="https://kit.fontawesome.com/283605f283.js" crossorigin="anonymous"></script>
-    <script src="../js/form.js"></script>
+    <script src="js/form.js"></script>
 </head>
 
 <body>
     <!-- navbar -->
-    <?php include '../assets/header.php'; ?>
+    <?php include 'assets/header.php'; ?>
     <!-- navbar -->
     <main>
         <div id="survey-form">
@@ -78,7 +78,7 @@
     </main>
 
     <!-- footer -->
-    <?php include '../assets/footer.php'; ?>
+    <?php include 'assets/footer.php'; ?>
 </body>
 
 </html>
